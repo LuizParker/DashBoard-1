@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
 * {
     box-sizing: border-box;
     margin: 0;
@@ -73,7 +74,6 @@
     grid-area: box-6;
     border-radius: 1rem;
     display: flex;
-    height: 17rem;
     flex-direction: column;
 }
 
@@ -88,7 +88,6 @@
     grid-area: box-8;
     border-radius: 1rem;
     display: flex;
-    height: 20rem;
     flex-direction: column;
 }
 
@@ -234,6 +233,13 @@ font-size: 3rem;
 .box-6 .title-chart .title-text i{
     color: #9f314f;
     font-size: 2rem;
+}
+
+.box-6 #simple-donut-chart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 
 .box-7 .title-chart .title-text{
